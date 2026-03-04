@@ -1,0 +1,483 @@
+.intro
+{
+    height: 520px;
+    background-image: url(marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introBox
+{
+    text-align: center;
+    text-align: center;
+    text-justify: auto;
+    height: 320px;
+}
+.introBox h1
+{
+    padding-top: 10px;
+    color: white;
+}
+.file
+{
+    width: 500px;
+    border-radius: 10px;
+    background-image: url(image22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 280px;
+    margin-top: 100px;
+    height: 200px;
+        
+}
+.header
+{
+   height: 70px;
+    
+}
+@media screen and (max-width:1000px ) {
+	.header {
+		padding: 10px;width: 485px;
+	}
+}
+.header img
+{
+    height: 40px;
+    width: 50px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+@media screen and (max-width:1000px ) {
+	.header img {
+		margin-top: 0px;
+      margin-left: 10px;
+	}
+}
+
+#headerBox
+{
+    margin-left: 190px;
+    margin-top: -52px;
+    
+}
+@media screen and (max-width:1000px ) {
+	#headerBox {
+		margin-left: 10px;
+	}
+}
+.headerBox
+{
+    
+  
+}
+@media screen and (max-width:1000px ) {
+	.headerBox {
+		width: 460px;
+	}
+}
+
+
+.headerBox .fa
+{
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.headerSocial
+{
+ 
+    color: ;
+    margin-top: -35px;
+    margin-left: 600px;
+    padding: 20px;
+    width: 170px;
+  
+}
+ @media screen and (max-width:1000px ) {
+	.headerSocial {
+      margin-left: 300px;
+	}
+} 
+.headerSocial .buy-btn {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 40px;
+	margin-top: -24px;
+}
+ .headerSocial h6
+{
+    
+    margin-top: -20px;
+    font-weight: normal;
+    color: white;
+    background-color: limegreen;
+    border-radius: 100px;
+    height: 40px;
+   
+}
+.headerSocial .fa
+{
+     margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+em
+{
+    
+   
+    font-size: 12px;
+    font-weight: normal;
+    color: limegreen;
+}
+ .box a:hover
+{
+    text-decoration: none;
+    color: #0094ff;
+}
+.headerSocial a:hover
+{
+    text-decoration: none;
+    color: #0094ff;    
+
+}
+.menu
+{
+    margin-top: -40px;
+    margin-left: 100px;
+}
+@media screen and (max-width:1000px ) {
+	.menu  {
+		display:none;
+	}
+}
+.menu li {
+    color: white;
+    margin-top: -200px;
+    text-align: ;
+    padding: 4px;display: inline-block;
+
+}
+.menu a {
+    color: white;
+    text-align: ;
+    padding: 4px;
+    font-size: 14px;
+    display: inline-block;
+
+}
+    /* Change color on hover */
+    .menu a:hover {
+        color: #0094ff;text-decoration: none;
+    }
+   
+.dropdown
+{
+	margin-left:0px;
+	margin-top:10px;
+	display:inline-block;	
+   
+  
+	
+	
+}
+.dropdown .btn
+{
+	
+	color:black;
+}
+.dropdown-toggle 
+{
+
+	color:black;
+	
+	
+}
+.dropdown a
+{
+    color: white;
+}
+.dropdown-menu a
+{
+    color: black;
+    padding-left: 20px;
+}
+
+.sidepanel 
+{
+    display: none;
+}
+@media screen and (max-width:1000px ){
+
+.sidepanel  
+    {
+      width:0px;
+      position:fixed;
+      z-index: 1;
+      height: 200px;
+      top: 80px;
+      margin-left: 0px;
+      background-color: coral;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 10px;
+        border-radius: 10px;
+        display: block;
+    }
+}
+@media screen and (max-width:1000px ){
+
+.sidepanel{
+      list-style: none;
+    }
+}
+
+.sidepanel a {
+  padding:5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  display:;
+  transition: 0.3s;
+    margin-top: 0px;
+    text-align: ;
+}
+
+.sidepanel a:hover {
+  color: aqua;
+    text-decoration: none;
+}
+
+.sidepanel .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+    margin-top: -10px;
+}
+
+.openbtn  
+{
+font-size: 20px;
+  cursor: pointer;
+  color: white;
+  border: none;
+    margin-top: 55px;
+  
+    
+
+ }
+@media screen and (max-width:1000px ){
+	.openbtn{
+        margin-left: 255px;
+      color: coral;
+        
+	}
+}
+.openbtn:hover 
+{
+  background-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width:1000px ){
+	.openbtn:hover{
+        
+      color: #0094ff;
+        
+	}
+}
+  
+
+.buy-btn {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 40px;
+	margin-top: 40px;
+}
+
+.buy-btn a{
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	transition: 0.6s;
+	border-radius: 100px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 10px;
+	border: 2px solid var(--hover-color);
+	box-shadow: 0 0 0.9rem limegreen;
+    background-color: limegreen;
+}
+
+.buy-btn a:hover {
+	color: coral;
+    text-decoration: none;
+}
+
+.buy-btn a::before {
+	content: "";
+	display: flex;
+	width: 0;
+	height: 100%;
+	background-color: coral;
+	transition: 0.4s;
+	position: absolute;
+	z-index: 1;
+	color: var(--bg-color);
+}
+
+.buy-btn a:hover {
+	background: var(--hover-color);
+}
+
+.buy-btn a:hover::before {
+	width: 0;
+}
+.file p
+{
+    color: white;
+    font-size: 14px;
+}
+.file .buy-btn {
+	margin-top: -10px;
+    margin-left: 180px;
+}
+#footer
+{
+  background-image: url(image22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+    color:white;
+}
+
+.footer
+{
+    margin-left: 140px;
+    padding-top: 20px;
+}
+@media screen and (max-width:1000px ) {
+	.footer{		
+		margin-left: 10px;	
+      width: 490px;
+	}
+    }
+.footer-box
+{
+    width: 190px;
+    display: inline-block;
+}
+@media screen and (max-width:1000px ) {
+	.footer-box{		
+      width: 240px;
+	}
+    }
+.footer-box p
+{
+    color: grey;
+    font-size: 14px;
+    margin-top: -20px;
+}
+.footer-box a
+{
+    color: white;
+}
+.footer-box a:hover
+{
+    color: coral;
+    text-decoration: none;
+}
+
+
+.footer .form-msg
+{
+
+    padding:10px;
+    text-align:;
+    margin-left: 0px;
+    width: 200px;
+    font-size: 14px;
+    margin-top: 10px;
+    
+	
+  
+}
+@media screen and (max-width:1000px ){
+	.footer .form-msg{
+        margin-top: 0px;
+        margin-left: -10px;
+      
+        
+	}
+}
+.footer form
+{
+    
+    margin-left: -150px;
+    margin-top: 0px;
+    background-image: url(none);
+}
+
+.footer input
+{
+  	padding:10px;
+   height:40px;
+   width: 150px;
+   display: inline-block;
+    margin-left: 80px;
+    margin-top: 3px;
+}
+
+.footer .col-75
+{
+
+  margin-top: 0px; 
+    display: inline-block;
+  margin-left:0px;
+  
+}
+.footer .post-box{
+    margin-left: 100px;
+}
+
+
+.logo img 
+{
+    margin-left:10px;height:50px;width:60px;
+}
+@media screen and (max-width:1000px ){
+	.logo img {
+        margin-left: 0px;
+        margin-top: 0px;
+	}
+}
+.footer .buy-btn
+{
+    margin-left: 30px;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+.footer .buy-btn a
+{
+    border-radius: 0px;
+}
+
+.footer .socials
+{
+    margin-top: -10px;
+}
+.footer .socials .fa
+{
+    background-color: lime;
+    border-radius: 200px;
+    padding: 10px;
+}
+.footer em
+{
+    color: white;
+}
